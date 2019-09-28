@@ -20,8 +20,7 @@ First, we train the model identical to SN-GANs. (No Spectral Regularization in i
 
 With such a setting, mode collapse begins at iteration=40k. 
 
-<img src="https://github.com/max-liu-112/SRAGNs/blob/master/figures/fig1_is.jpg"  height="300" >
-<img src="https://github.com/max-liu-112/SRAGNs/blob/master/figures/fig2_fid.jpg" height="300"> 
+<img src="https://github.com/max-liu-112/SRAGNs/blob/master/figures/fig1_is.jpg"  height="300" /><img src="https://github.com/max-liu-112/SRAGNs/blob/master/figures/fig2_fid.jpg" height="300"> 
 
 Spectral Collapse is also observed and shown in the following figure.
 

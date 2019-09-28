@@ -34,7 +34,7 @@ We can see in the following figure that applying SR avoid the mode collapse prob
 
 <img src="https://github.com/max-liu-112/SRAGNs/blob/master/figures/fig4.jpg" height="300">
 
-### Spectral Collapse VS Mode Collapse
+### Generated Images
 SNGAN: iterations=40k
 
 <img src="https://github.com/max-liu-112/SRGANs/blob/master/figures/SNGAN_40k_id204.png" height="270"/>      <img src="https://github.com/max-liu-112/SRGANs/blob/master/figures/SNGAN_40k_id323.png" height="270"/>      <img src="https://github.com/max-liu-112/SRGANs/blob/master/figures/SNGAN_40k_id946.png" height="270">

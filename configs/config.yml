@@ -1,0 +1,55 @@
+batchsize: 32
+iteration: 500000
+iteration_decay_start: 500000
+seed: 0
+display_interval: 100
+progressbar_interval: 100
+snapshot_interval: 10000
+evaluation_interval: 5000
+
+models:
+  generator:
+    fn: gen_models/G.py
+    name: ResNetGenerator
+    args:
+      dim_z: 128
+      bottom_width: 4
+      ch: 64
+      n_classes: 1000
+
+
+  discriminator:
+      fn: dis_models/Dis.py
+      name: Discriminator
+      args:
+        ch: 64
+        n_classes: 1000
+
+dataset:
+  dataset_fn: datasets/imagenet.py
+  dataset_name: ImageNetDataset
+  args:
+    path: datasets/image_list.txt
+    size: 128
+    resize_method: bilinear
+    augmentation: False
+
+adam_G:
+  alpha: 0.0001
+  beta1: 0.0
+  beta2: 0.999
+adam_D:
+  alpha: 0.0004
+  beta1: 0.0
+  beta2: 0.999
+updater:
+  fn: updater.py
+  name: Updater
+  args:
+    n_dis: 1
+    n_gen_samples: 32
+    conditional: True
+    loss_type: hinge
+    num_accumulation: 16
+    apply_SR: False
+

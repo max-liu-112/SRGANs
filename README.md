@@ -40,10 +40,10 @@ SNGAN: iterations=40k
 
 SNGAN: iterations=70k
 
-<img src="https://github.com/max-liu-112/SRGANs/blob/master/figures/SNGAN_70k_id204.png" height="180"/>       <img src="https://github.com/max-liu-112/SRGANs/blob/master/figures/SNGAN_70k_id265.png" height="180"/>       <img src="https://github.com/max-liu-112/SRGANs/blob/master/figures/SNGAN_70k_id323.png" height="180"/>       <img src="https://github.com/max-liu-112/SRGANs/blob/master/figures/SNGAN_70k_id946.png" height="180">
+<img src="https://github.com/max-liu-112/SRGANs/blob/master/figures/SNGAN_70k_id204.png" height="270"/>              <img src="https://github.com/max-liu-112/SRGANs/blob/master/figures/SNGAN_70k_id323.png" height="270"/>       <img src="https://github.com/max-liu-112/SRGANs/blob/master/figures/SNGAN_70k_id946.png" height="270">
 
 SRGAN: iterations=70k
 
-<img src="https://github.com/max-liu-112/SRGANs/blob/master/figures/SRGAN_70k_id204.png" height="180"/>       <img src="https://github.com/max-liu-112/SRGANs/blob/master/figures/SRGAN_70k_id265.png" height="180"/>       <img src="https://github.com/max-liu-112/SRGANs/blob/master/figures/SRGAN_70k_id323.png" height="180"/>       <img src="https://github.com/max-liu-112/SRGANs/blob/master/figures/SRGAN_70k_id946.png" height="180">
+<img src="https://github.com/max-liu-112/SRGANs/blob/master/figures/SRGAN_70k_id204.png" height="270"/>       <img src="https://github.com/max-liu-112/SRGANs/blob/master/figures/SRGAN_70k_id323.png" height="270"/>       <img src="https://github.com/max-liu-112/SRGANs/blob/master/figures/SRGAN_70k_id946.png" height="270">
 
 

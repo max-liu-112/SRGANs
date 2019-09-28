@@ -52,16 +52,21 @@ We can see that applying SR avoid the mode collapse problem, and greatly improve
 
 ### Spectral Collapse VS Mode Collapse
 SNGAN: iterations=40k
+
 <img src="https://github.com/max-liu-112/SRGANs/blob/master/figures/SNGAN_40k_id204.png">
 <img src="https://github.com/max-liu-112/SRGANs/blob/master/figures/SNGAN_40k_id265.png">
 <img src="https://github.com/max-liu-112/SRGANs/blob/master/figures/SNGAN_40k_id323.png">
 <img src="https://github.com/max-liu-112/SRGANs/blob/master/figures/SNGAN_40k_id946.png">
+
 SNGAN: iterations=70k
+
 <img src="https://github.com/max-liu-112/SRGANs/blob/master/figures/SNGAN_70k_id204.png">
 <img src="https://github.com/max-liu-112/SRGANs/blob/master/figures/SNGAN_70k_id265.png">
 <img src="https://github.com/max-liu-112/SRGANs/blob/master/figures/SNGAN_70k_id323.png">
 <img src="https://github.com/max-liu-112/SRGANs/blob/master/figures/SNGAN_70k_id946.png">
+
 SRGAN: iterations=70k
+
 <img src="https://github.com/max-liu-112/SRGANs/blob/master/figures/SRGAN_40k_id204.png">
 <img src="https://github.com/max-liu-112/SRGANs/blob/master/figures/SRGAN_40k_id265.png">
 <img src="https://github.com/max-liu-112/SRGANs/blob/master/figures/SRGAN_40k_id323.png">

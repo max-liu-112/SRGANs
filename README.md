@@ -1,5 +1,6 @@
 # SRGANs : Spectral Regularization for Combating Mode Collapse in GANs
 Image generation on ImageNet. 
+
 Image generation on CIFAR-10 and STL-10 can be found: https://github.com/max-liu-112/SRGANs-Spectral-Regularization-GANs-
 ### References
 -Kanglin Liu, Wenming Tang, Fei Zhou, Guoping Qiu. *Spectral Regularization for Combating Mode Collapse in GANs*. ICCV2019. [SRGANs]

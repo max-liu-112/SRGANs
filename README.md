@@ -8,27 +8,6 @@ Image generation on CIFAR-10 and STL-10 can be found: https://github.com/max-liu
 
 * The setup and example code in this README are for training SRGANs on 4 GPUs.
 
-## Setup
-
-### Install required python libraries:
-chainer==3.3.0
-
-tensorflow-gpu==1.2.0
-
-numpy==1.11.1
-
-cython==0.27.2
-
-cupy==2.0.0
-
-scipy==0.19.0
-
-pillow==4.3.0
-
-pyyaml==3.12
-
-h5py==2.7.1
-
 ### Experiment setup
 please refer to SNGANs https://github.com/pfnet-research/sngan_projection
 
@@ -45,6 +24,7 @@ With such a setting, mode collapse begins at iteration=40k.
 <img src="https://github.com/max-liu-112/SRAGNs/tree/master/figures/fig1=2_fid.pjpg">
 
 Spectral Collapse is also observed and shown in the following figure.
+
 <img src="https://github.com/max-liu-112/SRAGNs/tree/master/figures/fig3.pjpg">
 
 

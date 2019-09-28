@@ -20,40 +20,40 @@ First, we train the model identical to SN-GANs. (No Spectral Regularization in i
 
 With such a setting, mode collapse begins at iteration=40k. 
 
-<img src="https://github.com/max-liu-112/SRAGNs/tree/master/figures/fig1_is.jpg">
-<img src="https://github.com/max-liu-112/SRAGNs/tree/master/figures/fig1=2_fid.pjpg">
+<img src="https://github.com/max-liu-112/SRAGNs/blob/master/figures/fig1_is.jpg">
+<img src="https://github.com/max-liu-112/SRAGNs/blob/master/figures/fig1=2_fid.pjpg">
 
 Spectral Collapse is also observed and shown in the following figure.
 
-<img src="https://github.com/max-liu-112/SRAGNs/tree/master/figures/fig3.pjpg">
+<img src="https://github.com/max-liu-112/SRAGNs/blob/master/figures/fig3.pjpg">
 
 
 Then we resume the training with the snapshot at iterations=40k. Now we apply proposed SR to model.
 (trun the updater args 'apply_SR' in confgis/config.yaml to 'True')
 We can see in the following figure that applying SR avoid the mode collapse problem, and greatly improve the model performance.
 
-<img src="https://github.com/max-liu-112/SRAGNs/tree/master/figures/fig4.pjpg">
+<img src="https://github.com/max-liu-112/SRAGNs/blob/master/figures/fig4.pjpg">
 
 ### Spectral Collapse VS Mode Collapse
 SNGAN: iterations=40k
 
-<img src="https://github.com/max-liu-112/SRAGNs/tree/master/figures/SNGAN_40k_id204.png">
-<img src="https://github.com/max-liu-112/SRGANs/tree/master/figures/SNGAN_40k_id265.png">
-<img src="https://github.com/max-liu-112/SRGANs/tree/master/figures/SNGAN_40k_id323.png">
-<img src="https://github.com/max-liu-112/SRGANs/tree/master/figures/SNGAN_40k_id946.png">
+<img src="https://github.com/max-liu-112/SRAGNs/blob/master/figures/SNGAN_40k_id204.png">
+<img src="https://github.com/max-liu-112/SRGANs/blob/master/figures/SNGAN_40k_id265.png">
+<img src="https://github.com/max-liu-112/SRGANs/blob/master/figures/SNGAN_40k_id323.png">
+<img src="https://github.com/max-liu-112/SRGANs/blob/master/figures/SNGAN_40k_id946.png">
 
 SNGAN: iterations=70k
 
-<img src="https://github.com/max-liu-112/SRGANs/tree/master/figures/SNGAN_70k_id204.png">
-<img src="https://github.com/max-liu-112/SRGANs/tree/master/figures/SNGAN_70k_id265.png">
-<img src="https://github.com/max-liu-112/SRGANs/tree/master/figures/SNGAN_70k_id323.png">
-<img src="https://github.com/max-liu-112/SRGANs/tree/master/figures/SNGAN_70k_id946.png">
+<img src="https://github.com/max-liu-112/SRGANs/blob/master/figures/SNGAN_70k_id204.png">
+<img src="https://github.com/max-liu-112/SRGANs/blob/master/figures/SNGAN_70k_id265.png">
+<img src="https://github.com/max-liu-112/SRGANs/blob/master/figures/SNGAN_70k_id323.png">
+<img src="https://github.com/max-liu-112/SRGANs/blob/master/figures/SNGAN_70k_id946.png">
 
 SRGAN: iterations=70k
 
-<img src="https://github.com/max-liu-112/SRGANs/tree/master/figures/SRGAN_40k_id204.png">
-<img src="https://github.com/max-liu-112/SRGANs/tree/master/figures/SRGAN_40k_id265.png">
-<img src="https://github.com/max-liu-112/SRGANs/tree/master/figures/SRGAN_40k_id323.png">
-<img src="https://github.com/max-liu-112/SRGANs/tree/master/figures/SRGAN_40k_id946.png">
+<img src="https://github.com/max-liu-112/SRGANs/blob/master/figures/SRGAN_40k_id204.png">
+<img src="https://github.com/max-liu-112/SRGANs/blob/master/figures/SRGAN_40k_id265.png">
+<img src="https://github.com/max-liu-112/SRGANs/blob/master/figures/SRGAN_40k_id323.png">
+<img src="https://github.com/max-liu-112/SRGANs/blob/master/figures/SRGAN_40k_id946.png">
 
 

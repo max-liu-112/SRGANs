@@ -15,7 +15,7 @@ please refer to SNGANs https://github.com/pfnet-research/sngan_projection
 ### Train the model
 
 The defailt setting of Batch size is 2048. 
-First, we train the model identical to SN-GANs. (No Spectral Regularization in involved)
+First, we train the model identical to SN-GANs. (No Spectral Regularization involved)
 
 `python train.py`
 

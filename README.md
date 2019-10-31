@@ -22,7 +22,7 @@ The defailt setting of Batch size is 2048.
 
 First, we train the model identical to SN-GANs. (No Spectral Regularization involved)
 
-We strongly recommand you not to apply SR method in the beginning. Because SR need singulat value decompostion (SVD), which is rather computationally heavy. By the way, dynamic compensation guanrantee the spectral value not decrease. Actually, spectral values donnot drop in the begininig when using SN method. So we can apply SN method in the begining: 
+We recommand you not to apply SR method in the beginning. Because SR needs singular value decompostion (SVD), which is rather computationally heavy. By the way, dynamic compensation guanrantee the spectral value not decrease, and, spectral values donnot drop in the begininig when using SN method. So we can apply SN method in the begining to save the training time:
 
 `python train.py`
 

@@ -1,5 +1,6 @@
 # SRGANs : Spectral Regularization for Combating Mode Collapse in GANs
 Image generation on ImageNet. 
+The latest version can be found here: https://arxiv.org/pdf/1908.10999.pdf where we introduce the dynamic compensation as a implementation of Spectral Regularization. Dynamic compensation works better on ImageNet.
 
 Image generation on CIFAR-10 and STL-10 can be found: https://github.com/max-liu-112/SRGANs-Spectral-Regularization-GANs-
 ### References
@@ -12,10 +13,16 @@ Image generation on CIFAR-10 and STL-10 can be found: https://github.com/max-liu
 ### Experiment setup
 please refer to SNGANs https://github.com/pfnet-research/sngan_projection
 
+### SR method
+Actually, SR method only adds few modification based on SN method. In this example, we do image generation on ImageNet. After the gradeint update, we conduct dynamic compensation in the SR method, which can be found in the 'updater.py'. The in the next forward process, we use weight matrix w to do the convolutional operation, then the w has already been compensated. 
+
 ### Train the model
 
 The defailt setting of Batch size is 2048. 
+
 First, we train the model identical to SN-GANs. (No Spectral Regularization involved)
+
+We strongly recommand you not to apply SR method in the beginning. Because SR need singulat value decompostion (SVD), which is rather computationally heavy. By the way, dynamic compensation guanrantee the spectral value not decrease. Actually, spectral values donnot drop in the begininig when using SN method. So we can apply SN method in the begining: 
 
 `python train.py`
 

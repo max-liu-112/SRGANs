@@ -14,7 +14,7 @@ Image generation on CIFAR-10 and STL-10 can be found: https://github.com/max-liu
 please refer to SNGANs https://github.com/pfnet-research/sngan_projection
 
 ### SR method
-Actually, SR method only adds few modification based on SN method. In this example, we do image generation on ImageNet. After the gradeint update, we conduct dynamic compensation in the SR method, which can be found in the 'updater.py'. The in the next forward process, we use weight matrix w to do the convolutional operation, then the w has already been compensated. 
+Actually, SR method only adds few modification based on SN method. In this example, we do image generation on ImageNet. After the gradient update, we conduct dynamic compensation, which is implemented based on the 'SR' method in https://github.com/max-liu-112/SRGANs/blob/master/updater.py. In the next forward process, we use weight matrix w to do the convolutional operation, then the w has already been compensated. 
 
 ### Train the model
 
